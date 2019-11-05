@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pokusew/node-pcsclite.git"
+    "url": "https://github.com/TripathVN/node-pcsclite"
   },
   "license": "ISC",
   "author": {
@@ -34,7 +34,7 @@
     "test": "test"
   },
   "scripts": {
-    "install": "node-gyp rebuild",
+    "install": "prebuild-install || node-gyp rebuild",
     "test": "mocha"
   },
   "dependencies": {
